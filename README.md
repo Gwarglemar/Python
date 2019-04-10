@@ -10,6 +10,6 @@ As mentioned, I realized when I began looking for my next Software Development j
 
 Any larger projects will have their own folders listed here. I have a couple projects in mind that I'm starting design on but haven't begun coding for yet. I expect to have the beginnings of one up here by the end of this week (2019-04-12).
 
-### Python Exercises
+### Exercises
 
 This folder will have small exercises or mini practice projects from websites such as [Kattis](https://open.kattis.com/), small projects from online courses, or other exercises/small projects as I come up with them.
