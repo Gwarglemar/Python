@@ -13,3 +13,7 @@ Any larger projects will have their own folders listed here. I have a couple pro
 ### Exercises
 
 This folder will have small exercises or mini practice projects from websites such as [Kattis](https://open.kattis.com/), small projects from online courses, or other exercises/small projects as I come up with them. For something like Kattis, which has a large collection of problems with difficulty ratings, there will be a subfolder named Kattis (or whatever website it is) with an intuitive internal naming scheme or set of subfolders (depending on implementation) in place to sort the problems by listed difficulty. 
+
+### Troy
+
+Troy is the temporary name for this project. This project is a full Dungeons & Dragons character management tool. Features including but not limited to: character creation, inventory management, combat management, spell books, and various small resources and tools to help manage your character during the gameplay. For full project details, see the README in the folder.
