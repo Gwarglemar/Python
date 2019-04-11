@@ -32,3 +32,43 @@ The development plan I'm using is similar to that if a client approached me with
 * Up to this point it has been free-to-use with a Donation link somewhere on the site. 
   * When we reach a point that I feel the features are full enough, add some basic ads to the site, with an option for users to pay to disable(one-time or subscription?)
 * Continue support while building out additional features. Run user surveys / collect feedback to determine features most-wanted by community (biggest value-add for the app)
+
+## Features in mind (listed in no particular order)
+
+* Character Manager
+  * can list various attacks/spells/abilities, their relative modifiers, etc
+  * apply debuffs / buffs to your character and see those reflected in their stats/modifiers/etc
+    * changes the colour of the stat/modifier/whatever on the page, mouse-over to see what math is applied to the item and where the modifiers are from
+    * requires interface to add/remove status effects from a list, as well as create custom ones
+    * have quick-list for simple/common things
+  * Buttons for Take a Short Rest / Take a Long Rest / wait X days / etc, which apply the effects of those rests (certain abilities recharge, debuffs/diseases tick down)
+    * requires some configuration about how long a short/long rest is in your game, including an option for "fluid" where each might be slightly different, if relevant.
+    * Ties in to spellbook and Feature List, as those are what recharges on that time
+    * also need to be able to configure the effects of the rest on a per-character basis, as different campaigns say a long rest restores full health, or 50% max health, or some other thing; some debuffs clear, some don't, etc etc.
+* Ability/Feature/Usable Options list
+  * similar to the spellbook, but specifically for not-spells; class abilities, features, special attacks, and various things usable X times per Y (once per day, twice per short rest, thirteen times per full-moon, whatever)
+* Spellbook
+  * need to account for the various spellcasting classes and either:
+    * make a generic version that 
+* Inventory Management
+  * Option for multiple inventories ("x is in the bank, y is in the backpack, z is in the bag of holding")
+  * Options to enable encumberance / carry capacity (some games play with it, some don't)
+    * If not enabled, will have option somewhere to manually toggle the debuff, so that it's available if necessary
+  * Manage quantities
+  * Items in "on-person" inventories that have a use-effect (potions, items with abilities, etc) will have those options collated and added to the list of optinos / features / abilities for the character somewhere.
+* "combat" manager
+  * I need a better name for this; most of these features also apply outside of "combat". Most of these features are just things that you need to manage for the character.
+  * includes an interface to list character options for Action/Movement/Bonus/Reaction
+  * "optimization" option to show hypothetical average damage (or other success-rate) of various attacks/abilities
+    * many players will leave this disabled, which will be the default, but those who want it can enable it.
+* dice-roller app (for those monsters that don't want to roll their own physical dice)
+  * basically a setting the user can set that will take effect in Combat Manager / skill checks / spell book / etc
+  * when not toggled, instead of rolling the dice for you, it will just display the dice to roll and the modifiers to add to it (if any) when one of those other abilities/features is used.
+* Notebook
+  * A campaign can take months or years of real-world time. For any length of campaign, it's recommended to take notes. I've ended up with full coiled notebooks of notes for a single character in a campaign, including where they've been, what they've done, people they've met and all sorts of other things. 
+  * A notebook module will be able to create Notes with a type of Place, Person, or "What We Did" (I'll figure out a name for that last one later)
+  * Place and Person are intended to, at base-level, be the initial descriptors of the place. 
+  * You can then tag your "What We Did" notes by the People and Places involved; then, when you go to view those People or Places in your notes, you'll see those "What We Did" notes listed as well. 
+  * These will be time-stamped with real-world dates/times, because I don't think any campaign I've ever been in has had a consistent (or explained) calendar system that the players paid attention to.
+  * You will also be able to view all notes for a specific real-world day, to see what you did in that session.
+  * still working out a conceptual interface for this; I'm thinking full-page note-editor (similar to what I'm typing in in GitHub's website right now) with options to tag sections/lines based on highlighting? we'll see, it's one of the later features I intend to add.
