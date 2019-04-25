@@ -8,7 +8,7 @@ As mentioned, I realized when I began looking for my next Software Development j
 
 ## The Folders
 
-Any larger projects will have their own folders listed here. I have a couple projects in mind that I'm starting design on but haven't begun coding for yet. I expect to have the beginnings of one up here by the end of this week (2019-04-12).
+Any larger projects will have their own folders listed here. I have a couple projects in mind that I'm starting design on but haven't begun coding for yet. The first one I'm designing and working on will be Troy.
 
 ### Exercises
 
