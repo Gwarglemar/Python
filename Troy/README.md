@@ -12,7 +12,7 @@ There are currently many of these out there; my goal is to make it my own withou
 
 Well, I'm still working on that. I have some rough plans in my head which I've started to put down on paper, and as I solidify things I'll be transfering them to documents and tools and posting them here. 
 
-It will be a Python/Django web-app. Probably a SQLite or PostgreSQL DB, but I need to model the data in more detail before making a firm decision on that. Most likely hosted on AWS as I don't expect to outgrow the free tier anytime soon. 
+It will be a web-app with a Javascript front-end and a Python/Django backend. I haven't decided which JS framework I will use; I'll probably do initial dev with basic JS and Bootstrap front-end until I have my front-end UI/UX nailed down in more detail and then look into which framework best suits the app. Will probably a SQLite or PostgreSQL DB, but I need to model the data in more detail before making a firm decision on that. Most likely hosted on AWS as I don't expect to outgrow the free tier anytime soon. 
 
 ## Roadmap!
 
